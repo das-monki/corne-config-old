@@ -90,12 +90,12 @@
                 };
                 navigation_layer {
 // -----------------------------------------------------------------------------------------
-// |      |     |     |     |     |     |   |     |     |     |     |     |      |
+// |      |     |     |     |     |     |   | DEL |     |     | =>  |     |      |
 // |      |     |     |     |     |     |   |Left |Down | Up  |Right|  ;  |      |
 // |      |     |     |     |     |     |   |Home |PGDwn|PGUp | End |  \  |      |
 //                    |     |     |     |   | ESC | ESC |     |
                         bindings = <
-   &trans    &trans    &trans  &trans    &trans    &trans      &trans    &trans         &trans      &trans    &trans    &trans
+   &trans    &trans    &trans  &trans    &trans    &trans      &kp DEL   &trans         &trans      &kp BSPC  &trans    &trans
    &trans    &trans    &trans  &trans    &trans    &trans      &kp LEFT  &kp DOWN       &kp UP      &kp RIGHT &kp SEMI  &trans
    &trans    &trans    &trans  &trans    &trans    &trans      &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP &kp END   &kp BSLH  &trans
                                &trans    &trans    &trans      &kp ESC   &kp ESC   &trans
