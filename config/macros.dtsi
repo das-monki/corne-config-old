@@ -1,0 +1,13 @@
+mo_del: mo_del {
+  compatible = "zmk,behavior-macro";
+  label = "mo_del";
+  #binding-cells = <0>;
+  bindings = <&mo DEL_CTRL>;
+};
+
+mo_del_alt: mo_del_alt {
+  compatible = "zmk,behavior-macro";
+  label = "mo_del_alt";
+  #binding-cells = <0>;
+  bindings = <&mo DEL_ALT>;
+};
