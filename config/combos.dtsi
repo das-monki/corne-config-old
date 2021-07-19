@@ -25,6 +25,6 @@
 combos {
   compatible = "zmk,combos";
 
-  COMBO(col, &kp COLON, 21 22, BASE)
-  COMBO(readline, &mo RDL, 16 38, BASE)
+  COMBO(col, &kp COLON, 18 19, BASE)
+  COMBO(readline, &mo RDL, 13 32, BASE)
 };
